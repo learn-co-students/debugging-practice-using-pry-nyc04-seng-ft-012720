@@ -1,4 +1,13 @@
+require 'pry'
+
+num = 3
+# binding.pry
 def plus_two(num)
-	num + 2
+  # binding.pry 
+	num += 2
+# 	binding.pry
 	num
+# 	binding.pry
 end
+
+
